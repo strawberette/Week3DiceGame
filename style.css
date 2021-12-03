@@ -1,0 +1,169 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  background: black url("jonathan-greenaway-TNUEQ73frkA-unsplash.jpg") no-repeat
+    center center;
+  background-size: cover;
+  color: darkgray;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+#player1,
+#player2,
+#console {
+  margin-top: 200px;
+}
+#console {
+  margin-top: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+button {
+  background-color: darkgray;
+  border-style: groove;
+  border-radius: 50%;
+  size: 50px;
+}
+
+#scoreBox {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.playersScores,
+.totalScore {
+  width: 100px;
+  height: 50px;
+  border: 1px solid tan;
+  background-color: tan;
+  color: teal;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.playersScores {
+  border-color: teal;
+  background-color: teal;
+  border-radius: 20px;
+  color: tan;
+}
+.current {
+  font-size: 13px;
+  margin-top: 100px;
+  margin-bottom: -15px;
+}
+
+#diceScore {
+  width: 112px;
+  height: 112px;
+}
+
+/* images By  PhJ Die_Faces.png: Nanami Kamimura - Die_Faces.png */
+@media only screen and (max-width: 600px) {
+  #diceScore {
+    width: 50px;
+    height: 50px;
+  }
+  #player1,
+  #player2,
+  #console {
+    margin-top: 60px;
+  }
+  body {
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 6320px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 694px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1112px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1537px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 220px;
+  }
+  #console {
+    margin-top: 330px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 220px;
+  }
+  #console {
+    margin-top: 330px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #player1,
+  #player2,
+  #console {
+    margin-top: 120px;
+  }
+}
